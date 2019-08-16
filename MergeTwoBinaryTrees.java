@@ -15,11 +15,10 @@ public class MergeTwoBinaryTrees {
 	int data;
 	Node left, right;
 
-	public void Node(int data, Node left, Node right) {
-		this.data = data;
-		this.left = left;
-		this.right = right;
-	}
+	/*
+	 * public void Node(int data, Node left, Node right) { this.data = data;
+	 * this.left = left; this.right = right; }
+	 */
 
 	static Node newNode(int data) {
 		return new Node(data, null, null);

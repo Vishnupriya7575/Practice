@@ -21,7 +21,7 @@ public class PowerOfTwo {
 	public static boolean powerOfTwo(int n) {
 		int i = 1;
 		while (i < n) {
-			i *= 2;
+			i *= 2;  // i = 2*i ;
 		}
 		return i == n;
 	}

@@ -13,7 +13,7 @@ public class ReverseInteger {
 		
 		while(num > 0)
 		{
-			rev = (rev * 10) + (rev %10);
+			rev = ((rev * 10) + (num % 10));
 			num /= 10;
 		}
 		

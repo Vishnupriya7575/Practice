@@ -21,6 +21,9 @@ public class Twosum {
 	public static void main(String[] args) {
 		int a[] = { 2, 4, 5, 3, 6 };
 		int sum = 6;
-		twosum(a, sum);
+		int arr[] = twosum(a, sum);
+		for (int i : arr) {
+			System.out.println(a[i]);
+		}
 	}
 }

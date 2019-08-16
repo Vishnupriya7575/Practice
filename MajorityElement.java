@@ -11,11 +11,11 @@ public class MajorityElement {
 		
 		
 		int[] arr = {5,0,0,5,5,5};
-		MajorityElement mj = new MajorityElement();
-		System.out.println(mj.majorityElement(arr));
+		//MajorityElement mj = new MajorityElement();
+		System.out.println(majorityElement(arr));
 	}
 	
-	 public List<Integer> majorityElement(int[] nums) {
+	 public static List<Integer> majorityElement(int[] nums) {
 	        List<Integer> res = new ArrayList<Integer>();
 	        if(nums == null || nums.length == 0){
 	            return res;

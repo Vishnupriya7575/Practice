@@ -17,7 +17,7 @@ Explanation: Your function can return either index number 1 where the peak eleme
 
 package Programs;
 
-public class findPeakElement {
+public class FindPeakElement {
 	public static int findPkEle(int[] nums)
 	{
 		int left = 0;
