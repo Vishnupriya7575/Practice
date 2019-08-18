@@ -38,7 +38,7 @@ public class FrequencySort {
 			}
 		}
 		return sb.toString();
-		
+		 
 	}
 	public static void main(String[] args) {
 		System.out.println(freqSort("Tree"));
